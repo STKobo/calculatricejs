@@ -1,2 +1,3 @@
 const touches = [...document.querySelectorAll('.bouton')];
-console.log(touches);
+const listeKeycode = touches.map(touche => touche.dataset.key);
+console.log(listeKeycode);
